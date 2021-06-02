@@ -20,7 +20,7 @@ function merge(firstSortedSubArray, secondSortedSubArray) {
 function mergeSort(array) {
   let middle = array.length / 2;
   let firstHalf = array.slice(0, middle);
-  let secondHalf = array.slice(middle, array.length - 1);
+  let secondHalf = array.slice(middle, array.length);
   
   if (array.length < 2) {
     return array;
